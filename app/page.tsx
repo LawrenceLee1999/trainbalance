@@ -244,6 +244,13 @@ export default function LandingPage() {
               text="Log soreness and sleep; your week auto-adjusts to keep you ready for the pitch."
             />
           </div>
+
+          <a
+            href="/setup"
+            className="mt-10 inline-block rounded-xl bg-emerald-600 text-white px-5 py-3 font-medium hover:bg-emerald-700 transition"
+          >
+            Try the planner
+          </a>
         </div>
       </section>
 

@@ -244,13 +244,6 @@ export default function LandingPage() {
               text="Log soreness and sleep; your week auto-adjusts to keep you ready for the pitch."
             />
           </div>
-
-          <a
-            href="#cta"
-            className="mt-10 inline-flex items-center gap-2 rounded-xl bg-emerald-600 text-white px-5 py-3 hover:bg-emerald-700 transition"
-          >
-            Watch a 60s demo <PlayCircle size={18} />
-          </a>
         </div>
       </section>
 
@@ -361,17 +354,6 @@ export default function LandingPage() {
       <footer className="py-10 border-t border-zinc-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-600">
           <span>© {new Date().getFullYear()} TrainBalance</span>
-          <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-emerald-700">
-              Privacy
-            </a>
-            <a href="#" className="hover:text-emerald-700">
-              Terms
-            </a>
-            <a href="#" className="hover:text-emerald-700">
-              Contact
-            </a>
-          </div>
         </div>
       </footer>
     </div>

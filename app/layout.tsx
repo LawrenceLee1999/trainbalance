@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TrainBalance — Train smarter between gym and pitch",
   description: "Adaptive weekly planning for footballers: gym + training + recovery.",
+  icons: {
+    icon: "/favicon_io/favicon.ico"
+  }
 };
 
 export default function RootLayout({
